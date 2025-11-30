@@ -1,0 +1,25 @@
+# OpenServer / локальные настройки
+domains/
+OSPanel/
+.openserver/
+
+# Логи и кэши
+*.log
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# База данных и конфиги с паролями (на всякий случай)
+config/database.php.bak
+*.sql
+
+# Временные файлы PHP
+session
+/session/
+
+# Если вдруг будут загружаться файлы
+public/uploads/*
+!public/uploads/.gitkeep
